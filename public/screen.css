@@ -37,10 +37,11 @@ header ul {
 header ul li {
   padding-left: 1rem;
   font-size: 1.15rem;
+  margin: left;
 }
 
-header li {
-  margin: left;
+header li a {
+  color:#ffffff;
 }
 
 header li:not(first-child) {
