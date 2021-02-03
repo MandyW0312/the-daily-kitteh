@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+
 :root {
   font: 16px / 1 sans-serif;
 }
@@ -9,4 +11,94 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: #e2f4f5;
+  color:#4b6073;
+}
+
+header h1 {
+  text-align: center;
+  font-family: 'Source Serif Pro', serif;
+  font-size: 4rem;
+}
+
+header nav {
+  background-color: #11c7db;
+  color: #ffffff;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 0.01rem;
+  padding: 0.4rem;
+}
+
+header ul li {
+  padding-left: 1rem;
+  font-size: 1.15rem;
+}
+
+header li {
+  margin: left;
+}
+
+header li:not(first-child) {
+  margin-left: 1rem;;
+}
+
+main {
+  display: flex;
+  padding: 1rem;
+}
+
+aside {
+  margin: 2rem;
+  padding: 0.5rem;
+  border: 2px solid #11c7db;
+  width: 18%;
+}
+
+aside h3 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+section {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: 80%;
+}
+
+section h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+footer {
+  background-color: #d9d9d9;
+  font-size: 1.15rem;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 0.01rem;
+  padding: 1rem;
+}
+
+footer li {
+  margin: left;
+}
+
+footer li:not(first-child) {
+  margin-left: 1rem;;
 }
