@@ -12,7 +12,7 @@ body {
   margin: 0;
   min-height: 100%;
   background-color: #e2f4f5;
-  color:#4b6073;
+  color: #4b6073;
 }
 
 header h1 {
@@ -41,11 +41,11 @@ header ul li {
 }
 
 header li a {
-  color:#ffffff;
+  color: #ffffff;
 }
 
 header li:not(first-child) {
-  margin-left: 1rem;;
+  margin-left: 1rem;
 }
 
 main {
@@ -101,5 +101,21 @@ footer li {
 }
 
 footer li:not(first-child) {
-  margin-left: 1rem;;
+  margin-left: 1rem;
+}
+
+@media (min-width: 1910px) {
+  img {
+    max-width: 400px;
+    max-height: 400px;
+  }
+  p {
+    font-size: 2rem;
+  }
+  header h1 {
+    font-size: 5rem;
+  }
+  header ul {
+    padding: 1rem;
+  }
 }
