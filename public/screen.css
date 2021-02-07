@@ -103,19 +103,3 @@ footer li {
 footer li:not(first-child) {
   margin-left: 1rem;
 }
-
-@media (min-width: 1910px) {
-  img {
-    max-width: 400px;
-    max-height: 400px;
-  }
-  p {
-    font-size: 2rem;
-  }
-  header h1 {
-    font-size: 5rem;
-  }
-  header ul {
-    padding: 1rem;
-  }
-}
